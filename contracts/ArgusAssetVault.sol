@@ -18,9 +18,9 @@ import "./math/BancorFormula.sol";
     - BancorFormula: calculate purchase return for Bancor-like bonding curve
 
     Pending:
-    - ERC721: implement ERC721 interface for ArgusRWA
-    - ERC1155: implement ERC1155 interface for ArgusRWA
-    - ERC20: implement ERC20 interface for Truffles
+    - ERC721: implement ERC721 interface for external locking to ArgusAssetVault
+    - ERC1155: implement ERC1155 interface for external locking to ArgusAssetVault
+    - ERC20: implement ERC20 interface for external locking to ArgusAssetVault
     - IArgusRWA: Change it to custom non fungible token interface for security token
     - implement buy and sell functions, discuss auction mechanism @mundhrakeshav
     - Offchain order book mechanism (still in discussion) @mundhrakeshav
